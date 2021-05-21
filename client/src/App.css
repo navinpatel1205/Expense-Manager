@@ -1,0 +1,284 @@
+/* Navbar  */
+body {
+  /* background-color: #FFCC00; */
+  /* padding: 20px; */
+  margin: 0;
+}
+h1, h2, p, ul, li {
+  font-family: sans-serif;
+}
+.navbar{
+  margin-top:0px;
+  position: relative;
+  height:50px
+  
+}
+.navbar li {
+  text-align: center;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.navbar li:hover {
+  color: red;
+  background-color: #ddd;
+  
+}
+
+.nav-title{
+    
+  color:whitesmoke;
+  font-family: 'Londrina Solid', cursive;
+  /* font-size: xx-large; */
+  font-weight: 500;
+
+  font-variant-caps: all-small-caps;
+}
+
+
+/* Home page */
+
+.home-div
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+ 
+
+/* SignUp page */
+.signup-form{
+  color:rgb(12, 115, 184);
+  background-color:white;
+  width: 400px;
+  height: 400px;
+  margin-left: 100px;
+}
+.signup-image
+{ 
+  position:absolute ;
+  top: 130px;
+  right: 300px;
+
+}
+.form-title
+{ 
+  color:rgb(12, 115, 184);
+  font-size: xx-large;
+  text-align: center;
+  margin-top: 60px;
+  margin-left: 180px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.form-group-form-button>input
+{
+
+  width: 200px;
+  margin-left: 100px;
+  
+}
+.signup-image-link
+{ margin-left: 60px;
+  background-color:rgb(36, 98, 233);
+  color: white;
+  padding: 7px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.signup-image-link:hover, .signup-image-link:active {
+  background-color: rgb(255, 0, 34);
+  color: white;
+}
+
+.btn-signin:hover, .btn-signin:active {
+  background-color: rgb(36, 247, 17);
+  color: white;
+}
+/* login page */
+.login-form
+{
+  position:absolute;
+  color:rgb(12, 115, 184);
+  width: 400px;
+  top: 220px;
+  height: 400px;
+  right:300px;
+ 
+}
+.login-image
+{ 
+  position:absolute ; 
+  top: 140px;
+  height: 500px;
+  left: 280px;
+}
+.form-title-login
+{ 
+  color:rgb(36, 98, 233);
+  font-size: xx-large;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.login-image-link
+{
+  background-color:rgb(36, 98, 233);
+  color: white;
+  padding: 7px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.login-image-link:hover, .login-image-link:active {
+  background-color: rgb(255, 0, 34);
+  color: white;
+}
+
+
+/* Contact Page */
+.contact_info
+{ 
+  display: flex;
+  justify-content: center;
+  align-items: top;
+ /* background-color:rgb(228, 217, 217); */
+
+}
+.contactall
+{
+  height: 80;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.contact_form_title
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.contact_form_container{
+ /* margin-left: 10%; */
+ display:flexbox ;
+ justify-content: center;
+  text-align: center;
+align-items: center;
+
+}
+/* .input_field
+{
+ 
+ 
+  margin: 10px;
+  /* display: inline-block; */
+/* }  */
+
+
+/* homepage
+ */
+ .homepage
+ {
+   
+   align-content: center;
+ }
+
+
+ /* about page */
+ .emp-profile
+ { 
+   width: 80vh;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 40px; */
+ }
+ .profile-head
+ {
+  display: inline-block;
+
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+ }
+#profile-pic{
+height: 200px;
+width: 200px;
+align-items: center;
+ }
+ .list-inline
+ {
+align-content: flex-start; }
+.profile-work
+{
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media only screen and (max-width: 800px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+
+/* Add Expense page */ 
+.add-div
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+  width: 60%;
+  /* border: 3px solid green; */
+  /* padding: 10px; */
+}
+.add-button{
+  margin-top: 60px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.add-btn:hover, .add-btn:active {
+  background-color: rgb(255, 0, 34);
+  color: white;
+}
+/* detail view */
+
+Table
+{
+  
+  font-weight: bold;
+
+    border: 3px solid rgb(9, 10, 9);
+  /* padding: 10px; */
+}
+
+.detail-div
+{
+  display:grid;
+  justify-content: center;
+}
+.about-div
+{
+  padding-top:60px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-abt
+{
+  display:flex ;
+  justify-content: center;
+  justify-content: center;
+  align-items: center;
+}
